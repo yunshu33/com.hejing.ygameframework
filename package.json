@@ -6,7 +6,5 @@
   "description": "正在发展的游戏框架",
   "type": "tool",
   "author": "YunShu",
-  "dependencies": {
-    "com.hejing.ygameframework": "ssh://git@gitee.com:yunshu33/com.hejing.ygameframework.git"
-  }
+  "registry": "https://registry.npmjs.org"
 }
