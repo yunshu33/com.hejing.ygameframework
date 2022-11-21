@@ -50,7 +50,11 @@ namespace HeJing.GameWrold.Module
         /// <param name="unloadAllLoadedObjects"></param>
         public void UnloadAsync(bool unloadAllLoadedObjects = false)
         {
+#if UNITY_2021_1_OR_NEWER
             m_assetBundle.UnloadAsync(unloadAllLoadedObjects);
+#else
+            m_assetBundle.Unload(unloadAllLoadedObjects);
+#endif
         }
 
         /// <summary>

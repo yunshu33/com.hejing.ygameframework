@@ -3,6 +3,10 @@
 
 格式是基于 [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 这个项目坚持 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+
+## [1.0.3] - 2022-11-21
+*unity 2021.1 以下 无 UnloadAsync*
 ## [1.0.2] - 2022-11-21
 *删除 无用 using Unity.VisualScripting;*
 
