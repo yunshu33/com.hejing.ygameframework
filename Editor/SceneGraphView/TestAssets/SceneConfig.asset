@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eaa602232182c4bb62dc3d3ab8fc5d, type: 3}
+  m_Name: SceneConfig
+  m_EditorClassIdentifier: 
+  sceneNodes:
+  - m_node:
+      m_Guid: dff11b27-ffc9-4d77-b51f-4cd96ba11098
+      m_Name: AssetBundleTest
+    pos:
+      serializedVersion: 2
+      x: -381
+      y: -246
+      width: 152
+      height: 77
+    f_Node:
+      m_Guid: 7856982c-65b4-4e00-bb36-d1fe68a63fc4
+      m_Name: InitFramework
+    c_Node: []
+  - m_node:
+      m_Guid: 7856982c-65b4-4e00-bb36-d1fe68a63fc4
+      m_Name: InitFramework
+    pos:
+      serializedVersion: 2
+      x: -595
+      y: -144
+      width: 152
+      height: 77
+    f_Node:
+      m_Guid: 
+      m_Name: 
+    c_Node:
+    - m_Guid: e26899e3-ba38-473e-abf7-6a6c936a0932
+      m_Name: AsyncLoaderFiles
+    - m_Guid: dff11b27-ffc9-4d77-b51f-4cd96ba11098
+      m_Name: AssetBundleTest
+  - m_node:
+      m_Guid: e26899e3-ba38-473e-abf7-6a6c936a0932
+      m_Name: AsyncLoaderFiles
+    pos:
+      serializedVersion: 2
+      x: -381
+      y: -81
+      width: 152
+      height: 77
+    f_Node:
+      m_Guid: 7856982c-65b4-4e00-bb36-d1fe68a63fc4
+      m_Name: InitFramework
+    c_Node:
+    - m_Guid: 9512c990-0a42-4169-9134-00659329301d
+      m_Name: LearnEditor
+    - m_Guid: 6a04c76d-781c-4af9-b7c4-23b89dcf47b9
+      m_Name: Singleton
+  - m_node:
+      m_Guid: 6a04c76d-781c-4af9-b7c4-23b89dcf47b9
+      m_Name: Singleton
+    pos:
+      serializedVersion: 2
+      x: -126
+      y: -67
+      width: 152
+      height: 77
+    f_Node:
+      m_Guid: e26899e3-ba38-473e-abf7-6a6c936a0932
+      m_Name: AsyncLoaderFiles
+    c_Node: []
+  - m_node:
+      m_Guid: 9512c990-0a42-4169-9134-00659329301d
+      m_Name: LearnEditor
+    pos:
+      serializedVersion: 2
+      x: -126
+      y: -246
+      width: 152
+      height: 77
+    f_Node:
+      m_Guid: e26899e3-ba38-473e-abf7-6a6c936a0932
+      m_Name: AsyncLoaderFiles
+    c_Node: []
+  viewTransformPos: {x: 658, y: 401, z: 0}
