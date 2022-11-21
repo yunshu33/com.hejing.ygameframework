@@ -1,8 +1,12 @@
 # Changelog
-All notable changes to this package will be documented in this file.
+对这个包的所有显著更改都将记录在这个文件中。
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+格式是基于 [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+这个项目坚持 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.0.1] - 2022-11-21
+
+*new() .net 低版本不支持*
 
 ## [1.0.0] - 2022-11-21
 

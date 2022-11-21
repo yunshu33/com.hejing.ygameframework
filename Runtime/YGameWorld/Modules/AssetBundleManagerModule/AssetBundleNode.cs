@@ -18,7 +18,7 @@ namespace HeJing.GameWrold.Module
         /// <summary>
         /// 依赖的资源
         /// </summary>
-        public  List<AssetBundleNode> DependenciesAssets = new();
+        public  List<AssetBundleNode> DependenciesAssets = new List<AssetBundleNode> ();
 
         /// <summary>
         /// 被依赖次数

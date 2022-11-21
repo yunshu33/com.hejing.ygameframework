@@ -16,7 +16,7 @@ namespace HeJing.GameWrold.Module
         /// <summary>
         ///多线程双重锁
         /// </summary>
-        private static readonly object lockRoot = new();
+        private static readonly object lockRoot = new object();
         public static T Instance
         {
             get

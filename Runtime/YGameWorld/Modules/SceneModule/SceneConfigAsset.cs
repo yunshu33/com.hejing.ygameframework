@@ -1,4 +1,4 @@
-#region 
+﻿#region 
 // **********************************************************************
 // Create Time :		2022/11/17 13:48:24
 // Description :
@@ -18,7 +18,7 @@ namespace HeJing.YGameWorldFrame.RunTime
     {
 
         [SerializeField]
-        public List<SceneNode> sceneNodes = new();
+        public List<SceneNode> sceneNodes = new List<SceneNode>();
         [SerializeField]
         public Vector3 viewTransformPos;
 
